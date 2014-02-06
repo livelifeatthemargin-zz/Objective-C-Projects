@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAEE79718A046010039D327 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEE79618A046010039D327 /* Cocoa.framework */; };
+		DCAEE7A118A046010039D327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCAEE79F18A046010039D327 /* InfoPlist.strings */; };
+		DCAEE7A318A046010039D327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEE7A218A046010039D327 /* main.m */; };
+		DCAEE7A718A046010039D327 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DCAEE7A518A046010039D327 /* Credits.rtf */; };
+		DCAEE7AA18A046010039D327 /* AddressCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEE7A918A046010039D327 /* AddressCardAppDelegate.m */; };
+		DCAEE7AD18A046010039D327 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAEE7AB18A046010039D327 /* MainMenu.xib */; };
+		DCAEE7B018A046010039D327 /* AddressCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCAEE7AE18A046010039D327 /* AddressCard.xcdatamodeld */; };
+		DCAEE7B218A046010039D327 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAEE7B118A046010039D327 /* Images.xcassets */; };
+		DCAEE7B918A046010039D327 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEE7B818A046010039D327 /* XCTest.framework */; };
+		DCAEE7BA18A046010039D327 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEE79618A046010039D327 /* Cocoa.framework */; };
+		DCAEE7C218A046010039D327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCAEE7C018A046010039D327 /* InfoPlist.strings */; };
+		DCAEE7C418A046010039D327 /* AddressCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEE7C318A046010039D327 /* AddressCardTests.m */; };
+		DCAEE7CF18A046130039D327 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEE7CE18A046120039D327 /* AddressCard.m */; };
+		DCAEE7D218A058450039D327 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEE7D118A058450039D327 /* AddressBook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAEE7BB18A046010039D327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAEE78B18A046010039D327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAEE79218A046010039D327;
+			remoteInfo = AddressCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCAEE79318A046010039D327 /* AddressCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAEE79618A046010039D327 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DCAEE79918A046010039D327 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DCAEE79A18A046010039D327 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DCAEE79B18A046010039D327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCAEE79E18A046010039D327 /* AddressCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddressCard-Info.plist"; sourceTree = "<group>"; };
+		DCAEE7A018A046010039D327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCAEE7A218A046010039D327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCAEE7A418A046010039D327 /* AddressCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddressCard-Prefix.pch"; sourceTree = "<group>"; };
+		DCAEE7A618A046010039D327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DCAEE7A818A046010039D327 /* AddressCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCardAppDelegate.h; sourceTree = "<group>"; };
+		DCAEE7A918A046010039D327 /* AddressCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCardAppDelegate.m; sourceTree = "<group>"; };
+		DCAEE7AC18A046010039D327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DCAEE7AF18A046010039D327 /* AddressCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddressCard.xcdatamodel; sourceTree = "<group>"; };
+		DCAEE7B118A046010039D327 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCAEE7B718A046010039D327 /* AddressCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAEE7B818A046010039D327 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCAEE7BF18A046010039D327 /* AddressCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddressCardTests-Info.plist"; sourceTree = "<group>"; };
+		DCAEE7C118A046010039D327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCAEE7C318A046010039D327 /* AddressCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCardTests.m; sourceTree = "<group>"; };
+		DCAEE7CD18A046120039D327 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = SOURCE_ROOT; };
+		DCAEE7CE18A046120039D327 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = SOURCE_ROOT; };
+		DCAEE7D018A058450039D327 /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = SOURCE_ROOT; };
+		DCAEE7D118A058450039D327 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAEE79018A046010039D327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEE79718A046010039D327 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAEE7B418A046010039D327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEE7BA18A046010039D327 /* Cocoa.framework in Frameworks */,
+				DCAEE7B918A046010039D327 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAEE78A18A046010039D327 = {
+			isa = PBXGroup;
+			children = (
+				DCAEE79C18A046010039D327 /* AddressCard */,
+				DCAEE7BD18A046010039D327 /* AddressCardTests */,
+				DCAEE79518A046010039D327 /* Frameworks */,
+				DCAEE79418A046010039D327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAEE79418A046010039D327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEE79318A046010039D327 /* AddressCard.app */,
+				DCAEE7B718A046010039D327 /* AddressCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAEE79518A046010039D327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEE79618A046010039D327 /* Cocoa.framework */,
+				DCAEE7B818A046010039D327 /* XCTest.framework */,
+				DCAEE79818A046010039D327 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCAEE79818A046010039D327 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEE79918A046010039D327 /* AppKit.framework */,
+				DCAEE79A18A046010039D327 /* CoreData.framework */,
+				DCAEE79B18A046010039D327 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DCAEE79C18A046010039D327 /* AddressCard */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEE7CD18A046120039D327 /* AddressCard.h */,
+				DCAEE7CE18A046120039D327 /* AddressCard.m */,
+				DCAEE7A818A046010039D327 /* AddressCardAppDelegate.h */,
+				DCAEE7A918A046010039D327 /* AddressCardAppDelegate.m */,
+				DCAEE7AB18A046010039D327 /* MainMenu.xib */,
+				DCAEE7D018A058450039D327 /* AddressBook.h */,
+				DCAEE7D118A058450039D327 /* AddressBook.m */,
+				DCAEE7B118A046010039D327 /* Images.xcassets */,
+				DCAEE7AE18A046010039D327 /* AddressCard.xcdatamodeld */,
+				DCAEE79D18A046010039D327 /* Supporting Files */,
+			);
+			path = AddressCard;
+			sourceTree = "<group>";
+		};
+		DCAEE79D18A046010039D327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEE79E18A046010039D327 /* AddressCard-Info.plist */,
+				DCAEE79F18A046010039D327 /* InfoPlist.strings */,
+				DCAEE7A218A046010039D327 /* main.m */,
+				DCAEE7A418A046010039D327 /* AddressCard-Prefix.pch */,
+				DCAEE7A518A046010039D327 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCAEE7BD18A046010039D327 /* AddressCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEE7C318A046010039D327 /* AddressCardTests.m */,
+				DCAEE7BE18A046010039D327 /* Supporting Files */,
+			);
+			path = AddressCardTests;
+			sourceTree = "<group>";
+		};
+		DCAEE7BE18A046010039D327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEE7BF18A046010039D327 /* AddressCardTests-Info.plist */,
+				DCAEE7C018A046010039D327 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAEE79218A046010039D327 /* AddressCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAEE7C718A046010039D327 /* Build configuration list for PBXNativeTarget "AddressCard" */;
+			buildPhases = (
+				DCAEE78F18A046010039D327 /* Sources */,
+				DCAEE79018A046010039D327 /* Frameworks */,
+				DCAEE79118A046010039D327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressCard;
+			productName = AddressCard;
+			productReference = DCAEE79318A046010039D327 /* AddressCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAEE7B618A046010039D327 /* AddressCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAEE7CA18A046010039D327 /* Build configuration list for PBXNativeTarget "AddressCardTests" */;
+			buildPhases = (
+				DCAEE7B318A046010039D327 /* Sources */,
+				DCAEE7B418A046010039D327 /* Frameworks */,
+				DCAEE7B518A046010039D327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAEE7BC18A046010039D327 /* PBXTargetDependency */,
+			);
+			name = AddressCardTests;
+			productName = AddressCardTests;
+			productReference = DCAEE7B718A046010039D327 /* AddressCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAEE78B18A046010039D327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AddressCard;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Learning;
+				TargetAttributes = {
+					DCAEE7B618A046010039D327 = {
+						TestTargetID = DCAEE79218A046010039D327;
+					};
+				};
+			};
+			buildConfigurationList = DCAEE78E18A046010039D327 /* Build configuration list for PBXProject "AddressCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAEE78A18A046010039D327;
+			productRefGroup = DCAEE79418A046010039D327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAEE79218A046010039D327 /* AddressCard */,
+				DCAEE7B618A046010039D327 /* AddressCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAEE79118A046010039D327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEE7A118A046010039D327 /* InfoPlist.strings in Resources */,
+				DCAEE7B218A046010039D327 /* Images.xcassets in Resources */,
+				DCAEE7A718A046010039D327 /* Credits.rtf in Resources */,
+				DCAEE7AD18A046010039D327 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAEE7B518A046010039D327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEE7C218A046010039D327 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAEE78F18A046010039D327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEE7CF18A046130039D327 /* AddressCard.m in Sources */,
+				DCAEE7A318A046010039D327 /* main.m in Sources */,
+				DCAEE7D218A058450039D327 /* AddressBook.m in Sources */,
+				DCAEE7AA18A046010039D327 /* AddressCardAppDelegate.m in Sources */,
+				DCAEE7B018A046010039D327 /* AddressCard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAEE7B318A046010039D327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEE7C418A046010039D327 /* AddressCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAEE7BC18A046010039D327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAEE79218A046010039D327 /* AddressCard */;
+			targetProxy = DCAEE7BB18A046010039D327 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAEE79F18A046010039D327 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAEE7A018A046010039D327 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCAEE7A518A046010039D327 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAEE7A618A046010039D327 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DCAEE7AB18A046010039D327 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAEE7AC18A046010039D327 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DCAEE7C018A046010039D327 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAEE7C118A046010039D327 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAEE7C518A046010039D327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DCAEE7C618A046010039D327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCAEE7C818A046010039D327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressCard/AddressCard-Prefix.pch";
+				INFOPLIST_FILE = "AddressCard/AddressCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCAEE7C918A046010039D327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressCard/AddressCard-Prefix.pch";
+				INFOPLIST_FILE = "AddressCard/AddressCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DCAEE7CB18A046010039D327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddressCard.app/Contents/MacOS/AddressCard";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressCard/AddressCard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AddressCardTests/AddressCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DCAEE7CC18A046010039D327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AddressCard.app/Contents/MacOS/AddressCard";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressCard/AddressCard-Prefix.pch";
+				INFOPLIST_FILE = "AddressCardTests/AddressCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAEE78E18A046010039D327 /* Build configuration list for PBXProject "AddressCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAEE7C518A046010039D327 /* Debug */,
+				DCAEE7C618A046010039D327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAEE7C718A046010039D327 /* Build configuration list for PBXNativeTarget "AddressCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAEE7C818A046010039D327 /* Debug */,
+				DCAEE7C918A046010039D327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCAEE7CA18A046010039D327 /* Build configuration list for PBXNativeTarget "AddressCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAEE7CB18A046010039D327 /* Debug */,
+				DCAEE7CC18A046010039D327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCAEE7AE18A046010039D327 /* AddressCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCAEE7AF18A046010039D327 /* AddressCard.xcdatamodel */,
+			);
+			currentVersion = DCAEE7AF18A046010039D327 /* AddressCard.xcdatamodel */;
+			path = AddressCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCAEE78B18A046010039D327 /* Project object */;
+}
