@@ -12,6 +12,7 @@
 @property (copy, nonatomic) NSString *name, *artist, *album;
 -(void) print;
 -(void) setName:(NSString *) theName andArtist:(NSString *) theArtist andAlbum:(NSString *) theAlbum;
+-(NSComparisonResult) compareNames: (id) element;
 
 
 @end

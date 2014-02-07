@@ -24,4 +24,9 @@
     NSLog(@"|%-31s |", [artist UTF8String]);
     NSLog(@"|%-31s |", [album UTF8String]);
 }
+
+-(NSComparisonResult) compareNames:(id)element
+{
+    return [name compare:[element name]];
+}
 @end
